@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# Local SQLite database
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Git
+.git/
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.log
